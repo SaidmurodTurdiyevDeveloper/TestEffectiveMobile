@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/aviabletickets">
+
+    <fragment
+        android:id="@+id/aviabletickets"
+        android:name="us.smt.presentation.airplain_tiket.AirPlainTicketScreen"
+        android:label="AirPlainTicketScreen"
+        tools:layout="@layout/screen_airplain_ticket" />
+</navigation>
