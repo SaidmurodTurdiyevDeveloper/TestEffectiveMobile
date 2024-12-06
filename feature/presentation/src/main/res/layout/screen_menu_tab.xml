@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
     tools:context=".MainTabScreen">
 
     <androidx.fragment.app.FragmentContainerView
@@ -20,5 +22,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        app:itemIconTint="@drawable/tab_item"
+        style="@style/Widget.MaterialComponents.BottomNavigationView"
+        app:itemRippleColor="@color/transparent"
+        app:itemTextColor="@drawable/tab_item"
+        app:labelVisibilityMode="labeled"
         app:menu="@menu/bottom_navigation_menu" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

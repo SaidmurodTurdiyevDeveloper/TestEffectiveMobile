@@ -10,4 +10,24 @@
         android:name="us.smt.presentation.airplain_tiket.AirPlainTicketScreen"
         android:label="AirPlainTicketScreen"
         tools:layout="@layout/screen_airplain_ticket" />
+    <fragment
+        android:id="@+id/map"
+        android:name="us.smt.presentation.map.MapScreen"
+        android:label="screen_map"
+        tools:layout="@layout/screen_map" />
+    <fragment
+        android:id="@+id/otel"
+        android:name="us.smt.presentation.otel.OtelScreen"
+        android:label="screen_otel"
+        tools:layout="@layout/screen_otel" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="us.smt.presentation.profile.ProfileScreen"
+        android:label="screen_profile"
+        tools:layout="@layout/screen_profile" />
+    <fragment
+        android:id="@+id/subscribe"
+        android:name="us.smt.presentation.subscribe.ScreenSubscribe"
+        android:label="subscribe_screen"
+        tools:layout="@layout/subscribe_screen" />
 </navigation>

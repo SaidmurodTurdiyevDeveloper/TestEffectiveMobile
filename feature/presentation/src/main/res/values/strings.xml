@@ -5,4 +5,15 @@
     <string name="map">Короче</string>
     <string name="subscribe">Подписки</string>
     <string name="profile">Профиль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_search">Поиск дешевых авиабилетов</string>
+    <string name="music_otletel">Музыкально отлететь</string>
+    <string name="search">Search</string>
+    <string name="close">Close</string>
+    <string name="mashrut">Сложный маршрут</string>
+    <string name="kuda_ugodna">Куда угодно</string>
+    <string name="vxodne">Выходные</string>
+    <string name="goryochi_bilet">Горячие билеты</string>
+    <string name="item_image">Item image</string>
 </resources>
